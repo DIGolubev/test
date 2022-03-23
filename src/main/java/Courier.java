@@ -17,6 +17,7 @@ public class Courier {
         this.login = login;
         this.password = password;
         firstName = null;
+
     }
 
     /**

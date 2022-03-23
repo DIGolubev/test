@@ -7,8 +7,6 @@ public class CourierCredentials {
         this.password = password;
     }
 
-    public CourierCredentials() {
-    }
 
     public static CourierCredentials from(Courier courier) {
         return new CourierCredentials(courier.getLogin(), courier.getPassword());

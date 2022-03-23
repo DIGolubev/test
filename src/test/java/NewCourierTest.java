@@ -13,6 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class NewCourierTest {
     private CourierClient courierClient;
     private Courier courier;
+
     private Response response;
 
     private final int expectedCodResponse = 201;

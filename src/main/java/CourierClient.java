@@ -8,7 +8,6 @@ import static io.restassured.RestAssured.given;
  */
 public class CourierClient extends ScooterRestClient {
     public final String COURIER_PATH = BASE_URL + "/courier/";
-    public final String ORDER_PATH = BASE_URL + "/orders/";
 
     @Step("Создать курьера")
     public Response create(Courier courier) {
@@ -44,6 +43,5 @@ public class CourierClient extends ScooterRestClient {
                 .extract()
                 .path("ok");
     }
-
 
 }
