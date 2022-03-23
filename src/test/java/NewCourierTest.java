@@ -16,7 +16,7 @@ public class NewCourierTest {
 
     private Response response;
 
-    private final int expectedCodResponse = 201;
+    private final int expectedCodResponse = 203;
     private final String courierLogin = RandomStringUtils.randomAlphabetic(10);
 
     @Before
